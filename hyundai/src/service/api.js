@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const URL = 'http://localhost:4700';
+// const URL = 'http://localhost:4700';
+const URL = 'https://hyundai-mobis.onrender.com';
 
 export const addUser = async (data) =>{
     try
