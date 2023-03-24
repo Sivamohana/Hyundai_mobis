@@ -20,14 +20,14 @@ const Sample = (props) => {
   return (
     <div>
       
-      <h1> Report List </h1>
+      <h1 className="rhead"> Report List </h1>
       <div className="flexbox">
  
         {
            users.map((user) => {
               return (
                 <div className="buttonbox">
-                  <h5> {user.PI}</h5>
+                  <h5 className="bhead"> {user.PI}</h5>
                   <Link to={{
                         pathname:`/progress/${user.order}`,
                         state:{stateParam: true}
@@ -45,7 +45,7 @@ const Sample = (props) => {
            users.map((user) => {
               return (
                 <div className="buttonbox">
-                  <h5> {user.activity}</h5>
+                  <h5 className="bhead"> {user.activity}</h5>
                   <Link to={{
                         pathname:`/progress/${user.order}`,
                         state:{stateParam: true}

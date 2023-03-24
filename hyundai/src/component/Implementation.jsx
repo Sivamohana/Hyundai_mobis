@@ -184,7 +184,7 @@ const Implementation = () => {
   return (
     <div>
       <div className="jumbo-container">
-        <h1> Daily Activity</h1>
+        <h1 className="rhead"> Daily Activity</h1>
         <br />
         
         <form>
